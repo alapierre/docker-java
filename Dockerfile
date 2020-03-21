@@ -8,3 +8,4 @@ RUN apk --update add fontconfig ttf-dejavu \
 ENV TZ Europe/Warsaw
 
 RUN addgroup -g 666 -S app && adduser -u 666 -S -G app app
+ADD run-java.sh run-java.sh
