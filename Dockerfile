@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:14-jdk-alpine
 
 MAINTAINER Adrian Lapierre <al@alapierre.io>
 
