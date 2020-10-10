@@ -1,9 +1,8 @@
-FROM openjdk:14-jdk-alpine
+FROM lapierre/java-alpine:8
 
 MAINTAINER Adrian Lapierre <al@alapierre.io>
 
-RUN apk --update add fontconfig ttf-dejavu \
-    && apk add --no-cache tzdata
+RUN apk add --no-cache tzdata
 
 ENV TZ Europe/Warsaw
 
