@@ -1,7 +1,9 @@
-## Java base on lapierre/java-alpine:8 alpine image with some usfull staff:
+## Java image with some usfull staff:
 
 - run_java.sh with JAVA_OPTS envirnoment variable support
 - wait-for.sh script (https://github.com/Eficode/wait-for)
+
+OpenJDK 8 on branch base on lapierre/java-alpine:8 alpine
 
 ## How to build
 
