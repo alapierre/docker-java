@@ -1,3 +1,5 @@
+Deprecated please use https://github.com/alapierre/java-apline
+
 ## Java image with some usfull staff:
 
 - run_java.sh with JAVA_OPTS envirnoment variable support
